@@ -1,390 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- meta tag -->
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Akhil E A </title>
-    <meta
-      name="keywords"
-      content="Akhil, Developer, Personal, website"
-    />
-    
-    <!-- Google Fonts -->
-    <link
-      href="../../fonts.googleapis.com/css0f7c.css?family=Open+Sans:300,400,600,700,800"
-      rel="stylesheet"
-    />
-    <link
-      href="../../fonts.googleapis.com/cssd910.css?family=Kanit:200,300,300i,400,400i,500,600,700,800,900"
-      rel="stylesheet"
-    />
-    <!-- Bootstrap CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <!-- Owl Carousel CSS -->
-    <link href="css/owl.carousel.min.css" rel="stylesheet" />
-    <!-- Magnific Popup CSS -->
-    <link href="css/magnific-popup.css" rel="stylesheet" />
-    <!-- Icon CSS -->
-    <link href="css/font-awesome.min.css" rel="stylesheet" />
-    <!-- Main Stylesheet -->
-    <link href="css/style.css" rel="stylesheet" />
-    <!-- Responsive css -->
-    <link href="css/responsive.css" rel="stylesheet" />
-    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
-
-  </head>
-
-  <body>
-    <div class="pre-loader">
-      <div class="spinner"></div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Akhil.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
     </div>
-
-    <!-- Start Navbar -->
-    <nav id="main-nav">
-      <div class="row">
-        <div class="container">
-          <div class="logo ">
-            <a href="https://itsmeakhil.github.io/"><h1>Akhil</h1></a>
-          </div>
-          <div class="responsive"><i class="fa fa-bars"></i></div>
-          <ul class="nav-menu">
-            <li><a href="#header">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>Akhil.</h1>
+        <h2>Software Developer / Blockchain Developer / Human</h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">work</a>
+            <a onclick="showcontact()">contact</a>
         </div>
-      </div>
-    </nav>
-    <!-- End Navbar -->
 
-    <!-- Start section header -->
-    <section id="header">
-      <div class="display-table">
-        <div class="table-cell">
-          <div class="container">
-            <div class="header-content">
-              <h2 class="cd-headline clip is-full-width">
-                <span class="cd-words-wrapper">
-                  <b class="is-visible">I'm UI Developer.</b>
-                  <b class="is-hidden">I'm Web Developer.</b>
-                  <b class="is-hidden">I'm Blockchain Developer.</b>
-                </span>
-              </h2>
-              <ul class="list-social">
-                  <li>
-                      <a href="https://www.facebook.com/akhiledathadan007"><i class="fa fa-facebook-f"></i></a>
-                    </li>
-                    <li>
-                      <a href="https://twitter.com/__itsmeakhil__"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li>
-                      <a href="https://www.instagram.com/_the__cs"><i class="fa fa-instagram"></i></a>
-                    </li>
-                    <li>
-                      <a href="https://github.com/itsmeakhil"><i class="fa fa-github"></i></a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/itsakhil"><i class="fa fa-linkedin"></i></a>
-                    </li>
-              </ul>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" href="https://www.facebook.com/akhiledathadan007"><i class="fab fa-facebook"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social" href="https://twitter.com/__itsmeakhil__"><i class="fab fa-twitter"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social" href="https://www.instagram.com/_gitignore"><i class="fab fa-instagram"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-github"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social" href="https://www.linkedin.com/in/itsakhil"><i class="fab fa-linkedin"></i></a></td>
+
+                </tr>
+        </table>
+    </div>
+    <!-- <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>works.</h1>
+        <section>
+            <h2>work title</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="icon-scroll"></div>
-    </section>
-    <!-- End Header Section -->
-
-      <!-- Start About Section -->
-    <section id="about" class="section-padding">
-      <div class="container">
-        <div class="section-title">
-          <h6 class="heading-small">ABOUT ME</h6>
-          <h2>WHO AM I?</h2>
-        </div>
-        <div class="row justify-content-between">
-          <div class="col-lg-4 ">
-            <div class="about-img">
-              <img src="images/me.png" class="img-responsive" alt="about-me" />
-            </div>
-          </div>
-          <div class="col-lg-7">
-            <div class="about-description skills">
-              <p class="p-heading">
-                Hi! My name is Akhil E A. I am a Web Developer, Blockchain Developer and I'm very
-                passionate and dedicated to my work.
-              </p>
-              <div class="skill-part">
-                <div class="skill">
-                  <h4 class="progress-title">Html</h4>
-                  <div class="progress">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      style="width: 70%;"
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    >
-                      <span>70%</span>
-                    </div>
-                  </div>
-                  <h4 class="progress-title">Javascript</h4>
-                  <div class="progress">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      style="width: 70%;"
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    >
-                      <span>70%</span>
-                    </div>
-                  </div>
-                  <h4 class="progress-title">Web Design</h4>
-                  <div class="progress">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      style="width: 60%;"
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    >
-                      <span>60%</span>
-                    </div>
-                  </div>
-
-                  <h4 class="progress-title">Block Development</h4>
-                  <div class="progress">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      style="width: 70%;"
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    >
-                      <span>70%</span>
-                    </div>
-                  </div>
-                  <h4 class="progress-title">Other Skills</h4>
-                  <div class="other-skills" >
-                  Docker Solidity Ethereum Git Python C Nodejs Flutter
-                  </div>
-                  </div>
-
-                </div>
-
-                </div>
-              </div>
-
-              <div class="about-cv-btn">
-                <a href="#" type="application/pdf" class="btn-hover btn"
-                  >HIRE ME<i class="fa fa-paper-plane"></i><span></span
-                ></a>
-                <a href="AKHIL E A.pdf" class="btn-hover btn"
-
-                <a href="AKHIL E A.pdf" type="application/pdf" class="btn-hover btn"
-                  >Download CV<i class="fa fa-cloud-download"></i><span></span
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End About Section -->
-    <section class="section-padding dark-review">
-        <div  class="container ">
-  
-  
-        </div>
-      </section>
-    <!-- End Portfolio Section -->
-    <!--Start Experience Section-->
-    <section id="experience" class="section-padding">
-      <div class="container">
-        <div class="section-title">
-          <h6 class="heading-small">EXPERIENCE</h6>
-          <h2>We are creative experts</h2>
-        </div>
-        <div class="row">
-          <div class="col-xl-12">
-            <ul class="timeline-list">
-           
-              <!-- Single Experience -->
-              <li>
-                <div class="timeline_content">
-                  <span class="badge">2014</span>
-                  <h4><span class="color"></span>Computer Science Higher Secondary</h4>
-                  <p>
-                    I completed my Higher Secondary education with
-                    75% of marks in Computer Science from Ghss Kodakara and also
-                     worked as an NSS volunteer and passed out in the year 2014.
-                  </p>
-                </div>
-              </li>
-                   
-              <li>
-                <div class="timeline_content">
-                  <span class="badge">2017</span>
-                  <h4><span class="color"></span>Computer Engineering Diploma</h4>
-                  <p>
-                    I have completed my diploma in Computer Engineering in the year 2017
-                    from Maharajas's Technological Institute, Thrissur. I have completed a
-                    project at Collage a student patrol system for student police interaction.
-                   
-                  </p>
-                </div>
-              </li>
-              <li>
-                  <div class="timeline_content">
-                    <span class="badge">2017</span>
-                    <h4><span class="color"></span>Software Training Python</h4>
-                    <p>
-                      I have completed a class room traning on python 
+            <button class="btn_one">Python</button>
+            <button class="btn_two">Javascript</button>
+        </section>
+    </div> -->
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>about.</h1>
+            <section>
+                <h2>about me</h2>
+                <p>
+                    Hi! My name is Akhil. Blockchain Enthusiast and I'm very
+                    passionate and dedicated to my work. I am a web Developer specialised in server side. I am working in python Django RestFrameWork . 
+                    I love learn and doing codeing. I have Completed Certifications in Blockchain on Ethereum And Hyperledger Sawtooth and i am very 
+                    passionate n learning blockchain. I have hands on experience doing projects on Sawtooth and as well as in Ethereum. My dream is to become perfect blockchain architect.
+                    And to decentralize the world.....! 
+                
+                </p>
+                
+            </section>
+            <section>
+                <h2>Skill</h2>
+                <button class="btn_one" onclick="window.open('https://python.org')">Python</button>
+                <button class="btn_one" onclick="window.open('https://nodejs.org')">Nodejs </button>
+                <button class="btn_one" >SQL</button>
+                <button class="btn_one" onclick="window.open('https://www.djangoproject.com')">Django</button>
+                <button class="btn_one" onclick="window.open('https://www.django-rest-framework.org')">Django RestFrameWork</button>
+                <button class="btn_one" onclick="window.open('https://graphql.org')">Graphql API</button>
+                <button class="btn_one" onclick="window.open('https://restfulapi.net')">Rest API</button>
+                <button class="btn_one" >Blockchain</button>
+                <button class="btn_one" onclick="window.open('https://ethereum.org/')">Ethereum</button>
+                <button class="btn_one" onclick="window.open('https://www.hyperledger.org/projects/sawtooth')">Hyperledger Sawtooth</button>
+                
+            </section>
+            <section>
+                <h2>Education.</h2>
+                    <section>
+                        <h3>Computer Science Higher Secondary</h3>
+                        <p>
+                            I completed my Higher Secondary education with
+                            75% of marks in Computer Science from Ghss Kodakara and also
+                             worked as an NSS volunteer and passed out in the year 2014.
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Computer Engineering Diploma</h3>
+                        <p>
+                            I have completed my diploma in Computer Engineering in the year 2017
+                            from Maharajas's Technological Institute, Thrissur. I have completed a
+                            project at Collage a student patrol system for student police interaction.
+                           
+                          </p>
+                    </section>
+                    <section>
+                        <h3>Software Training Python</h3>
+                        <p>
+                            I have completed a class room traning on python 
                       from november 2017 to february 2018, and completeda project on Python Django
-                       from Quest Innovative Solutions Kadavanthara, Ernakulam.   
-                    </p>
-                  </div>
-                </li>    
-              <li>
-                <div class="timeline_content">
-                  <span class="badge">2019</span>
-                  <h4><span class="color"></span> Certified Hyperledger Developer</h4>
-                  <p>
-                     Certified Hyperledger Developer a Certificate
-                     program at Kerala BlockChain Academy, Thiruvananthapuram.
-                     completed on building decentralised application on top of
-                     Hyperledger Sawtooth.
-                  </p>
-                </div>
-              </li>
-              <li>
-                  <div class="timeline_content">
-                    <span class="badge">2019</span>
-                    <h4><span class="color"></span> Certified Ethereum Developer</h4>
-                    <p>
-                       Certified Ethereum Developer a Certificate
-                       program at Kerala BlockChain Academy, Thiruvananthapuram.
-                       Working on building decentralised application on top of
-                       Ethereum.
-                    </p>
-                  </div>i
-                </li>
-              
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Experience Section-->
-    <section class="section-padding dark-review">
-      <div  class="container Section-hai">
-
-
-      </div>
-    </section>
-
-    <!-- Start Contact Sectoion -->
-    <section id="contact" class="section-padding">
-      <div class="container">
-        <div class="section-title">
-          <h6 class="heading-small"><center>GET IN TOUCH</center></h6>
-          <h2><center>SAY HELLO</center></h2>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="contact-info">
-              <div class="row">
-                <div class="col-md-3">
-                  <div class="contact-details">
-                    <h5>Phone</h5>
-                    <p>+91 81 57 01 01 56</p>
-                  </div>
-                </div>
+                       from Quest Innovative Solutions Kadavanthara, Ernakulam. 
+                          </p>
+                    </section>
+                    <section>
+                        <h3>Certified Hyperledger Developer</h3>
+                        <p>
+                            Certified Hyperledger Developer a Certificate
+                            program at Kerala BlockChain Academy, Thiruvananthapuram.
+                            completed on building decentralised application on top of
+                            Hyperledger Sawtooth.
+                         </p>
+                    </section>
+                    <section>
+                        <h3>Certified Ethereum Developer</h3>
+                        <p>
+                            Certified Ethereum Developer a Certificate
+                            program at Kerala BlockChain Academy, Thiruvananthapuram.
+                            Working on building decentralised application on top of
+                            Ethereum.
+                         </p>
+                    </section>
+                    <section>
+                        <a class ="btn_one" href="Copy of AKHIL E A.pdf" target="_blank">Download My CV</a>
+                        <!-- <button  class="btn_one" ta>Download My CV <i class="fas fa-download"></i></button> -->
+                    </section>
                 
-                
-              </div>
-              <div class="row">
-                  <div class="col-md-3">
-                      <div class="contact-details">
-                        <h5>Email</h5>
-                        <p>akhiledathadan007@gmail.com</p>
-                      </div>
-                    </div>
-                    
-              </div>
-              <div class="row">
-                  <div class="col-md-4">
-                      <div class="contact-details">
-                        <h5><i text-size = "20px" class="fa fa-telegram"></i></h5>
-                        <p ><strong><a href="https://telegram.org/itsmeakhil">itsmeakhil</a></strong></p>
-                      </div>
-                    </div>
-              </div>
-            </div>
-          </div>
-          
+            </section>
         </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="contact-details">
-                  <div class="socials-media">
-                    <ul>
-                      <li>
-                        <a href="https://www.facebook.com/akhiledathadan007"><i class="fa fa-facebook-f"></i></a>
-                      </li>
-                      <li>
-                        <a href="https://twitter.com/__itsmeakhil__"><i class="fa fa-twitter"></i></a>
-                      </li>
-                      <li>
-                        <a href="https://www.instagram.com/_the__cs"><i class="fa fa-instagram"></i></a>
-                      </li>
-                      <li>
-                        <a href="https://github.com/itsmeakhil"><i class="fa fa-github"></i></a>
-                      </li>
-                      <li>
-                        <a href="https://www.linkedin.com/in/itsakhil"><i class="fa fa-linkedin"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>contact.</h1>
+            <section>
+                <h2>contact me</h2>
+                <p>
+                    <form action="" method="POST">
+                        <input type="text" placeholder="name" required>
+                        <input type="email" placeholder="email" required><br>
+                        <textarea placeholder="your message" required rows="5"></textarea><br>
+                        <button class="btn_one">send</button>
+                    </form> 
+                </p>
+            </section>
         </div>
-      </div>
-    </section>
-    <!-- End Contact Sectoion -->
-
-    <!-- Start Footer Section -->
-    <footer id="footer">
-      <div class="container">
-        <p>Copyrights <a href="/https://www.linkedin.com/in/itsakhil">itsmeakhil</a> All rights reserved.</p>
-      </div>
-    </footer>
-    <!-- End Footer Section -->
-
-    <!-- JQuery -->
-    <script src="js/jquery.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Owl-carousel -->
-    <script src="js/owl.carousel.min.js"></script>
-    <!-- Magnific-popup -->
-    <script src="js/magnific-popup.min.js"></script>
-    <!-- Isotope -->
-    <script src="js/isotope.pkgd.min.js"></script>
-    <!-- Animated-headline -->
-    <script src="js/animated.headline.js"></script>
-    <!-- Waypoints -->
-    <script src="js/jquery.waypoints.min.js"></script>
-    <!-- Counter-up -->
-    <script src="js/jquery.counterup.min.js"></script>
-    <!-- Template Main Javascript File -->
-    <script src="js/main.js"></script>
-  </body>
+        <div id="footer">
+            made in love with github <a href="https://itsmeakhil.github.io"> Akhil</a>
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
 </html>
