@@ -14,7 +14,11 @@ body {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background:rgb(50, 80, 247);
+    background: #1e3c72;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background:rgb(50, 80, 247); */
     z-index: 999;
     display: flex;
     justify-content: center;
@@ -47,10 +51,18 @@ body {
     display:inline-block;
 }
 .box1 {
-    background:rgb(50, 80, 247);
+    background: #1e3c72;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background:rgb(50, 80, 247); */
 }
 .box2 {
-    background:rgb(50, 80, 247);
+    background: #1e3c72;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background:rgb(50, 80, 247); */
     margin-left:-5px;
 }
 #menu {
@@ -137,15 +149,27 @@ body {
     border-radius:100px 100px 0px 0px;
 }
 #about:hover {
-    background:rgb(50, 80, 247);
+    background: #1e3c72;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background:rgb(50, 80, 247); */
     cursor:pointer;
 }
 #work:hover {
-    background:rgb(50, 80, 247);
+    background: #1e3c72;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background:rgb(50, 80, 247); */
     cursor:pointer;
 }
 #contact:hover {
-    background:rgb(50, 80, 247);
+    background: #1e3c72;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background:rgb(50, 80, 247); */
     cursor:pointer;
 }
 #middle table {
@@ -171,7 +195,11 @@ body {
     width:90vw;
     height:90vh;
     padding:5vh 5vw;
-    background:rgb(50, 80, 247);
+    background: #1e3c72;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background:rgb(50, 80, 247); */
     color:#fff;
     z-index:9;
     position:fixed;
@@ -316,11 +344,19 @@ a{
     background:rgb(50, 80, 247); 
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(50, 80, 247); 
+    background: #1e3c72;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background: rgb(50, 80, 247);  */
 }
 ::selection {
-	color: #fff;
-	background: rgb(50, 80, 247);
+    color: #fff;
+    background: #1e3c72;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	/* background: rgb(50, 80, 247); */
 }
 
 .lds-heart {
