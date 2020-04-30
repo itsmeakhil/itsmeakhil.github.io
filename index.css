@@ -91,7 +91,7 @@ background: linear-gradient(to top, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Fir
     padding-bottom:10vh;
 }
 #middle h1 {
-    color:rgb(50, 80, 247);
+    color:rgb(255, 255, 255);
     font-size:70px;
     text-decoration:underline;
 }
@@ -196,8 +196,8 @@ background: linear-gradient(to top, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Fir
     height:90vh;
     padding:5vh 5vw;
     background: #1e3c72;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to top, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     /* background:rgb(50, 80, 247); */
     color:#fff;
